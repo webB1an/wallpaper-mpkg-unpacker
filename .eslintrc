@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "@antfu",
+    "@unocss"
+  ],
+  "rules": {
+    "@unocss/order": "error",
+    "@unocss/order-attributify": "warn"
+  }
+}
