@@ -7,6 +7,18 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    ElButton: typeof import('element-plus/es')['ElButton']
+    ElCard: typeof import('element-plus/es')['ElCard']
+    ElIcon: typeof import('element-plus/es')['ElIcon']
+    ElMenu: typeof import('element-plus/es')['ElMenu']
+    ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
+    ElProgress: typeof import('element-plus/es')['ElProgress']
+    ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
+    ElText: typeof import('element-plus/es')['ElText']
+    ElUpload: typeof import('element-plus/es')['ElUpload']
     HelloWorld: typeof import('./../src/components/HelloWorld.vue')['default']
+    Nav: typeof import('./../src/components/Nav/index.vue')['default']
+    NavBar: typeof import('./../src/components/NavBar/index.vue')['default']
+    Unpacker: typeof import('./../src/components/Unpacker/index.vue')['default']
   }
 }

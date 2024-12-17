@@ -5,6 +5,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import UnoCSS from 'unocss/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -32,6 +33,7 @@ export default defineConfig({
           ],
         },
       ],
+      resolvers: [ElementPlusResolver()],
       dts: 'types/auto-imports.d.ts',
       // 自动导入目录下的模块导出
       // 默认情况下，它只会扫描目录下的一个级别的模块
@@ -44,6 +46,7 @@ export default defineConfig({
     }),
     // https://github.com/unplugin/unplugin-vue-components
     Components({
+      resolvers: [ElementPlusResolver()],
       // 允许自动导入
       include: [/\.vue$/, /\.vue\?vue/],
       dts: 'types/components.d.ts',

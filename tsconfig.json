@@ -21,7 +21,13 @@
     "noFallthroughCasesInSwitch": true,
     "types": [
       "unplugin-vue-macros/macros-global"
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
   },
   "vueCompilerOptions": {
     "plugins": [

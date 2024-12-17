@@ -13,6 +13,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "element-plus": "^2.9.1",
+    "jszip": "^3.10.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {

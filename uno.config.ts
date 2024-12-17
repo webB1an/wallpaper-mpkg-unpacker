@@ -32,5 +32,5 @@ export default defineConfig({
     transformerDirectives(),
     transformerVariantGroup(),
   ],
-  safelist: 'prose prose-sm m-auto text-left'.split(' '),
+  safelist: 'prose prose-sm m-auto text-left el-message el-message--error is-closable'.split(' '),
 })

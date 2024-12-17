@@ -2,8 +2,8 @@
   "prettier.enable": false,
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.organizeImports": false
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
   },
 
   "editor.quickSuggestions": {
@@ -25,5 +25,8 @@
     "json",
     "jsonc",
     "yaml"
+  ],
+  "cSpell.words": [
+    "mpkg"
   ]
 }
