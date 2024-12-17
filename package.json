@@ -1,11 +1,11 @@
 {
-  "name": "simple-vite-template-v3-2",
+  "name": "wallpaper-mpkg-unpacker",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
