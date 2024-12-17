@@ -13,7 +13,7 @@ jobs:
       - name: Setup Node.js v16.x
         uses: actions/setup-node@v1
         with:
-          node-version: 16.x
+          node-version: 18.12.0
 
       - name: Install
         run: npm install # 安装依赖
